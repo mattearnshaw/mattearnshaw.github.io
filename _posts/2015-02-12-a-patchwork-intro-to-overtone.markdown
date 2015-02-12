@@ -177,7 +177,8 @@ Here's what rand-sin looks like.
 
 In the next post I'll probably cover buses and buffers.
 
-[overtone]: http://overtone.github.io/ [clojure]: http://clojure.org/
+[overtone]: http://overtone.github.io/
+[clojure]: http://clojure.org/
 [supercollider]: http://supercollider.sourceforge.net/
 [at-at]: https://github.com/overtone/at-at
 [examples]: https://github.com/overtone/overtone/tree/master/src/overtone/examples
