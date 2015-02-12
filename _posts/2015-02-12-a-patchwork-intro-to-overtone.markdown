@@ -173,7 +173,7 @@ Finally, you can visualize the UGen graph of a synth using
 `show-graphviz-synth` - this is useful for documenting synths.
 Here's what rand-sin looks like.
 
-![My helpful screenshot]({{ site.url }}/assets/rand-sin-graph.jpg)
+![rand-sin graph](https://raw.githubusercontent.com/mattearnshaw/mattearnshaw.github.io/master/assets/rand-sin-graph.png)
 
 In the next post I'll probably cover buses and buffers.
 
