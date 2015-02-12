@@ -86,7 +86,7 @@ inevitably guesses the wrong one.
 {% highlight clojure %}
 user> (demo (impulse))  ; no sound because impulse defaults to :kr, which is inaudible
 user> (demo (impulse:kr)) ; same as above
-user> (demo (impusle:ar)) ; now we hear 440Hz
+user> (demo (impulse:ar)) ; now we hear 440Hz
 {% endhighlight %}
 
 `demo` is a handy function that creates an anonymous synth and plays
@@ -138,7 +138,7 @@ user> (stop)
 {% endhighlight %}
 
 Success. The 0 argument to `out` is the number of the output bus to
-use. The lowest numbers go to your hardware, but you can create you
+use. The lowest numbers go to your hardware, but you can create your
 own buses for routing internally - I'll cover this in another post.
 To stop the output, we just call `stop` - this stops all running synths.
 
@@ -172,6 +172,10 @@ user> (rand-sin-inst) ; it works, no out required!
 Finally, you can visualize the UGen graph of a synth using
 `show-graphviz-synth` - this is useful for documenting synths.
 Here's what rand-sin looks like.
+
+{% highlight clojure %}
+user> (show-graphviz-synth rand-sin)
+{% endhighlight %}
 
 ![rand-sin graph](https://raw.githubusercontent.com/mattearnshaw/mattearnshaw.github.io/master/assets/rand-sin-graph.png)
 
