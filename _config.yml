@@ -1,0 +1,10 @@
+# Site settings
+title: noumenal friction
+email: matt@earnshaw.org.uk
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mattearnshaw.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  mattearnshaw
+
+# Build settings
+markdown: kramdown
